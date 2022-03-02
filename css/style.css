@@ -1,0 +1,51 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+html {
+  font-size: 62.5%;
+}
+body {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+
+}
+h1 {
+  font-size: 6.5em;
+}
+button, p, label, input{
+  font-size: 2.8em; 
+}
+#how-many {
+  text-align: center;
+  width: 100px;
+  
+}
+}
+form {
+  
+  display: flex;
+  align-items: center;
+}
+button {
+  margin-top: 3.0em;
+}
+#round {
+  border: 5px solid purple;
+  height: 10rem;
+  width: 10rem;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
